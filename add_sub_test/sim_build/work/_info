@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ojakinlade/Documents/cocotb/add_sub_test
+T_opt
+Z2 !s110 1728372888
+V<fj^?8:_5Lg6T7DTKGcWL3
+04 11 15 work add_sub_top add_sub_top_rtl 1
+=1-000ae431a4f1-6704e098-c04b3-2043
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work sim_build/work
+tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+Eadd_sub_top
+Z3 w1728119281
+Z4 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z5 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z6 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z7 8/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd
+Z8 F/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd
+l0
+L5 1
+VDj7WcdX?U;Ign340P?ZI71
+!s100 [h@>FP:U7OnI?Zj1dhd_30
+Z9 OL;C;2023.3;77
+32
+R2
+!i10b 1
+Z10 !s108 1728372888.000000
+Z11 !s90 -work|work|+acc|/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd|/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd|
+Z12 !s107 /home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd|/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd|
+!i113 0
+Z13 o-work work +acc
+Z14 tExplicit 1 CvgOpt 0
+Aadd_sub_top_rtl
+Z15 DEx4 work 14 lpm_add_sub_ip 0 22 ebNA2F=L:lKF@9PoIYn<41
+R4
+R5
+R6
+DEx4 work 11 add_sub_top 0 22 Dj7WcdX?U;Ign340P?ZI71
+!i122 0
+l20
+L15 14
+VnDOe43PR[6i:h<SL]40<;3
+!s100 9EmPn04Wz=S>?jL5>GE2g0
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Elpm_add_sub_ip
+Z16 w1728078786
+R5
+R6
+!i122 0
+R1
+Z17 8/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd
+Z18 F/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd
+l0
+L43 1
+VebNA2F=L:lKF@9PoIYn<41
+!s100 7o:Wb1PiCh3XSN[PVijON2
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Asyn
+R5
+R6
+R15
+!i122 0
+l84
+L57 53
+VmAM_Zl@_ON9B`DE_D=ZM;1
+!s100 `SeN5b3hE1ALL00]7db8f1
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

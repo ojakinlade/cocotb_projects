@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e vcom 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ojakinlade/Documents/cocotb/adder/tests
+T_opt
+Z2 !s110 1728119223
+V28B@Ndb6fj`4mbXZA28z;2
+04 5 3 work adder rtl 1
+=1-000ae431a4f1-670101b7-2ea01-ac17
+R0
+!s12b OEM100
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work sim_build/work
+tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+Eadder
+Z3 w1728119214
+Z4 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z5 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z6 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 0
+R1
+Z7 8/home/ojakinlade/Documents/cocotb/adder/tests/../hdl/adder.vhd
+Z8 F/home/ojakinlade/Documents/cocotb/adder/tests/../hdl/adder.vhd
+l0
+L8 1
+VGPP<MdM:iUk^T@>hoN63R0
+!s100 UQGjEV90UbANXCBYda;b[0
+Z9 OL;C;2023.3;77
+32
+R2
+!i10b 1
+Z10 !s108 1728119223.000000
+Z11 !s90 -work|work|+acc|/home/ojakinlade/Documents/cocotb/adder/tests/../hdl/adder.vhd|
+Z12 !s107 /home/ojakinlade/Documents/cocotb/adder/tests/../hdl/adder.vhd|
+!i113 0
+Z13 o-work work +acc
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R4
+R5
+R6
+DEx4 work 5 adder 0 22 GPP<MdM:iUk^T@>hoN63R0
+!i122 0
+l18
+L17 9
+V8?UMRJ=FIFBVOnV7ZKh??0
+!s100 ?bf^89o12JKB]?X2R;6H`0
+R9
+32
+R2
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

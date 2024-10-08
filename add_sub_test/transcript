@@ -1,0 +1,85 @@
+# do sim_build/runsim.do
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap -c 
+# ** Warning: vmap will not overwrite local modelsim.ini.
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work sim_build/work 
+# Modifying modelsim.ini
+# Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 08:34:48 on Oct 08,2024
+# vcom -work work "+acc" /home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd /home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_add_sub_ip
+# -- Compiling architecture SYN of lpm_add_sub_ip
+# -- Loading package NUMERIC_STD
+# -- Compiling entity add_sub_top
+# -- Compiling architecture add_sub_top_rtl of add_sub_top
+# -- Loading entity lpm_add_sub_ip
+# End time: 08:34:48 on Oct 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -onfinish exit -t 1ps -foreign "cocotb_init /home/ojakinlade/Documents/cocotb/.venv/lib/python3.12/site-packages/cocotb/libs/libcocotbfli_modelsim.so" sim_build/work.add_sub_top 
+# Start time: 08:34:48 on Oct 08,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 linux_x86_64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.add_sub_top(add_sub_top_rtl)#1
+# Loading work.lpm_add_sub_ip(syn)#1
+# Loading lpm.lpm_components
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading lpm.lpm_add_sub(lpm_syn)#1
+# Loading /home/ojakinlade/Documents/cocotb/.venv/lib/python3.12/site-packages/cocotb/libs/libcocotbfli_modelsim.so
+#      -.--ns INFO     gpi                                ..ib/fli/FliImpl.cpp:1150 in cocotb_init                     cocotb_init called
+#      -.--ns INFO     gpi                                ..mbed/gpi_embed.cpp:108  in set_program_name_in_venv        Using Python virtual environment interpreter at /home/ojakinlade/Documents/cocotb/.venv/bin/python
+#      -.--ns INFO     gpi                                ../gpi/GpiCommon.cpp:101  in gpi_print_registered_impl       FLI registered
+#      0.00ns INFO     cocotb                             Running on ModelSim for QuestaIntel Starter FPGA Edition-64 version 2023.2 2023.07
+#      0.00ns INFO     cocotb                             Running tests with cocotb v1.9.1 from /home/ojakinlade/Documents/cocotb/.venv/lib/python3.12/site-packages/cocotb
+#      0.00ns INFO     cocotb                             Seeding Python random module with 1728372889
+#      0.00ns INFO     cocotb.regression                  Found test lpm_add_sub_test.simple_add_sub_test
+#      0.00ns INFO     cocotb.regression                  running simple_add_sub_test (1/1)
+#                                                           Simple test for add_sub_top functionality.
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /add_sub_top/lpm_add_sub_inst/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /add_sub_top/lpm_add_sub_inst/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /add_sub_top/lpm_add_sub_inst/LPM_ADD_SUB_component/L1/U
+# Result: 17
+# Cout: 0
+# Overflow: 0
+# Result: 149
+# Cout: 1
+# Overflow: 0
+#      2.00ns INFO     cocotb.regression                  simple_add_sub_test passed
+#      2.00ns INFO     cocotb.regression                  **********************************************************************************************
+#                                                         ** TEST                                  STATUS  SIM TIME (ns)  REAL TIME (s)  RATIO (ns/s) **
+#                                                         **********************************************************************************************
+#                                                         ** lpm_add_sub_test.simple_add_sub_test   PASS           2.00           0.11         18.37  **
+#                                                         **********************************************************************************************
+#                                                         ** TESTS=1 PASS=1 FAIL=0 SKIP=0                          2.00           0.14         13.85  **
+#                                                         **********************************************************************************************
+#                                                         
+# Simulation halt requested by foreign interface.
+# End time: 08:34:50 on Oct 08,2024, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 4
