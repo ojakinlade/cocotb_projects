@@ -1,0 +1,19 @@
+/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_add_sub_ip
+-- Compiling architecture SYN of lpm_add_sub_ip
+
+} {} {}} /home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2023.3 Compiler 2023.07 Jul 17 2023
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity add_sub_top
+-- Compiling architecture add_sub_top_rtl of add_sub_top
+-- Loading entity lpm_add_sub_ip
+
+} {} {}}

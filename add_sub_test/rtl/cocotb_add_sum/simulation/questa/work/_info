@@ -1,0 +1,96 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ojakinlade/Documents/Quartus/cocotb_add_sum/simulation/questa
+Eadd_sub_top
+Z1 w1728083981
+Z2 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z3 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 2
+R0
+Z5 8/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd
+Z6 F/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd
+l0
+L5 1
+VQzo2j:P;7Wo]h_V9O^FH^2
+!s100 [h@>FP:U7OnI?Zj1dhd_30
+Z7 OL;C;2023.3;77
+32
+Z8 !s110 1728084085
+!i10b 1
+Z9 !s108 1728084085.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd|
+Z11 !s107 /home/ojakinlade/Documents/Quartus/cocotb_add_sum/src/add_sub_top.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aadd_sub_top_rtl
+Z14 DEx4 work 14 lpm_add_sub_ip 0 22 S4TOglRTFMoQ^4:?^4S`M3
+R2
+R3
+R4
+DEx4 work 11 add_sub_top 0 22 Qzo2j:P;7Wo]h_V9O^FH^2
+!i122 2
+l20
+L15 14
+VE<4XVhN3kSUOzHaKN[CGR1
+!s100 9EmPn04Wz=S>?jL5>GE2g0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Elpm_add_sub_ip
+Z15 w1728078786
+R3
+R4
+!i122 3
+R0
+Z16 8/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd
+Z17 F/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd
+l0
+L43 1
+VS4TOglRTFMoQ^4:?^4S`M3
+!s100 7o:Wb1PiCh3XSN[PVijON2
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd|
+Z19 !s107 /home/ojakinlade/Documents/Quartus/cocotb_add_sum/IP/lpm_add_sub_ip.vhd|
+!i113 0
+R12
+R13
+Asyn
+R3
+R4
+R14
+!i122 3
+l84
+Z20 L57 53
+Z21 V0d;:BzEj2[o]E`=?`C]>i3
+Z22 !s100 `SeN5b3hE1ALL00]7db8f1
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 0
+R12
+R13

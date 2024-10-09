@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_NUMERIC.ALL;
+use work.lpm
+
+entity add_sub_top is
+	port(dataa	 : in std_logic_vector(7 downto 0);
+		  datab	 : in std_logic_vector(7 downto 0);
+		  add_sub : in std_logic;
+		  cout	 : out std_logic;
+		  overflow: out std_logic;
+		  result	 : out std_logic_vector(7 downto 0));
+end entity;
+
+architecture add_sub_top_rtl of add_sub_top is
+	signal sum_result: std_logic_vector(7 downto 0);
+	signal sum_cout  : std_logic;
+	signal sum_overflow: std_logic;
+begin
+	lpm_add_sub_inst: entity work.lpm_add_sub_ip
+		port map(dataa => dataa, datab => datab, add_sub => add_sub,
+					cout => sum_cout, overflow => sum_overflow, result => sum_result);
+	
+	result <= sum_result;
+	cout <= sum_cout;
+	overflow <= sum_overflow;
+end add_sub_top_rtl;

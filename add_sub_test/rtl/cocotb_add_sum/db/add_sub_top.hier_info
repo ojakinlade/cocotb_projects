@@ -1,0 +1,135 @@
+|add_sub_top
+dataa[0] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[0]
+dataa[1] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[1]
+dataa[2] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[2]
+dataa[3] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[3]
+dataa[4] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[4]
+dataa[5] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[5]
+dataa[6] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[6]
+dataa[7] => lpm_add_sub_ip:lpm_add_sub_inst.dataa[7]
+datab[0] => lpm_add_sub_ip:lpm_add_sub_inst.datab[0]
+datab[1] => lpm_add_sub_ip:lpm_add_sub_inst.datab[1]
+datab[2] => lpm_add_sub_ip:lpm_add_sub_inst.datab[2]
+datab[3] => lpm_add_sub_ip:lpm_add_sub_inst.datab[3]
+datab[4] => lpm_add_sub_ip:lpm_add_sub_inst.datab[4]
+datab[5] => lpm_add_sub_ip:lpm_add_sub_inst.datab[5]
+datab[6] => lpm_add_sub_ip:lpm_add_sub_inst.datab[6]
+datab[7] => lpm_add_sub_ip:lpm_add_sub_inst.datab[7]
+cin => lpm_add_sub_ip:lpm_add_sub_inst.cin
+add_sub => lpm_add_sub_ip:lpm_add_sub_inst.add_sub
+cout << lpm_add_sub_ip:lpm_add_sub_inst.cout
+overflow << lpm_add_sub_ip:lpm_add_sub_inst.overflow
+result[0] << lpm_add_sub_ip:lpm_add_sub_inst.result[0]
+result[1] << lpm_add_sub_ip:lpm_add_sub_inst.result[1]
+result[2] << lpm_add_sub_ip:lpm_add_sub_inst.result[2]
+result[3] << lpm_add_sub_ip:lpm_add_sub_inst.result[3]
+result[4] << lpm_add_sub_ip:lpm_add_sub_inst.result[4]
+result[5] << lpm_add_sub_ip:lpm_add_sub_inst.result[5]
+result[6] << lpm_add_sub_ip:lpm_add_sub_inst.result[6]
+result[7] << lpm_add_sub_ip:lpm_add_sub_inst.result[7]
+
+
+|add_sub_top|lpm_add_sub_ip:lpm_add_sub_inst
+add_sub => lpm_add_sub:LPM_ADD_SUB_component.add_sub
+cin => lpm_add_sub:LPM_ADD_SUB_component.cin
+dataa[0] => lpm_add_sub:LPM_ADD_SUB_component.dataa[0]
+dataa[1] => lpm_add_sub:LPM_ADD_SUB_component.dataa[1]
+dataa[2] => lpm_add_sub:LPM_ADD_SUB_component.dataa[2]
+dataa[3] => lpm_add_sub:LPM_ADD_SUB_component.dataa[3]
+dataa[4] => lpm_add_sub:LPM_ADD_SUB_component.dataa[4]
+dataa[5] => lpm_add_sub:LPM_ADD_SUB_component.dataa[5]
+dataa[6] => lpm_add_sub:LPM_ADD_SUB_component.dataa[6]
+dataa[7] => lpm_add_sub:LPM_ADD_SUB_component.dataa[7]
+datab[0] => lpm_add_sub:LPM_ADD_SUB_component.datab[0]
+datab[1] => lpm_add_sub:LPM_ADD_SUB_component.datab[1]
+datab[2] => lpm_add_sub:LPM_ADD_SUB_component.datab[2]
+datab[3] => lpm_add_sub:LPM_ADD_SUB_component.datab[3]
+datab[4] => lpm_add_sub:LPM_ADD_SUB_component.datab[4]
+datab[5] => lpm_add_sub:LPM_ADD_SUB_component.datab[5]
+datab[6] => lpm_add_sub:LPM_ADD_SUB_component.datab[6]
+datab[7] => lpm_add_sub:LPM_ADD_SUB_component.datab[7]
+cout <= lpm_add_sub:LPM_ADD_SUB_component.cout
+overflow <= lpm_add_sub:LPM_ADD_SUB_component.overflow
+result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result[0]
+result[1] <= lpm_add_sub:LPM_ADD_SUB_component.result[1]
+result[2] <= lpm_add_sub:LPM_ADD_SUB_component.result[2]
+result[3] <= lpm_add_sub:LPM_ADD_SUB_component.result[3]
+result[4] <= lpm_add_sub:LPM_ADD_SUB_component.result[4]
+result[5] <= lpm_add_sub:LPM_ADD_SUB_component.result[5]
+result[6] <= lpm_add_sub:LPM_ADD_SUB_component.result[6]
+result[7] <= lpm_add_sub:LPM_ADD_SUB_component.result[7]
+
+
+|add_sub_top|lpm_add_sub_ip:lpm_add_sub_inst|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_o5i:auto_generated.dataa[0]
+dataa[1] => add_sub_o5i:auto_generated.dataa[1]
+dataa[2] => add_sub_o5i:auto_generated.dataa[2]
+dataa[3] => add_sub_o5i:auto_generated.dataa[3]
+dataa[4] => add_sub_o5i:auto_generated.dataa[4]
+dataa[5] => add_sub_o5i:auto_generated.dataa[5]
+dataa[6] => add_sub_o5i:auto_generated.dataa[6]
+dataa[7] => add_sub_o5i:auto_generated.dataa[7]
+datab[0] => add_sub_o5i:auto_generated.datab[0]
+datab[1] => add_sub_o5i:auto_generated.datab[1]
+datab[2] => add_sub_o5i:auto_generated.datab[2]
+datab[3] => add_sub_o5i:auto_generated.datab[3]
+datab[4] => add_sub_o5i:auto_generated.datab[4]
+datab[5] => add_sub_o5i:auto_generated.datab[5]
+datab[6] => add_sub_o5i:auto_generated.datab[6]
+datab[7] => add_sub_o5i:auto_generated.datab[7]
+cin => add_sub_o5i:auto_generated.cin
+add_sub => add_sub_o5i:auto_generated.add_sub
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_o5i:auto_generated.result[0]
+result[1] <= add_sub_o5i:auto_generated.result[1]
+result[2] <= add_sub_o5i:auto_generated.result[2]
+result[3] <= add_sub_o5i:auto_generated.result[3]
+result[4] <= add_sub_o5i:auto_generated.result[4]
+result[5] <= add_sub_o5i:auto_generated.result[5]
+result[6] <= add_sub_o5i:auto_generated.result[6]
+result[7] <= add_sub_o5i:auto_generated.result[7]
+cout <= add_sub_o5i:auto_generated.cout
+overflow <= add_sub_o5i:auto_generated.overflow
+
+
+|add_sub_top|lpm_add_sub_ip:lpm_add_sub_inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_o5i:auto_generated
+add_sub => overflow_wire[0].IN0
+add_sub => add_sub_cella[7].DATAC
+add_sub => add_sub_cella[6].DATAC
+add_sub => add_sub_cella[5].DATAC
+add_sub => add_sub_cella[4].DATAC
+add_sub => add_sub_cella[3].DATAC
+add_sub => add_sub_cella[2].DATAC
+add_sub => add_sub_cella[1].DATAC
+add_sub => add_sub_cella[0].DATAC
+cin => add_sub_cella[0].CIN
+cout <= add_sub_cella[7].COUT
+dataa[0] => add_sub_cella[0].DATAD
+dataa[1] => add_sub_cella[1].DATAD
+dataa[2] => add_sub_cella[2].DATAD
+dataa[3] => add_sub_cella[3].DATAD
+dataa[4] => add_sub_cella[4].DATAD
+dataa[5] => add_sub_cella[5].DATAD
+dataa[6] => add_sub_cella[6].DATAD
+dataa[7] => add_sub_cella[7].DATAD
+datab[0] => add_sub_cella[0].DATAF
+datab[1] => add_sub_cella[1].DATAF
+datab[2] => add_sub_cella[2].DATAF
+datab[3] => add_sub_cella[3].DATAF
+datab[4] => add_sub_cella[4].DATAF
+datab[5] => add_sub_cella[5].DATAF
+datab[6] => add_sub_cella[6].DATAF
+datab[7] => add_sub_cella[7].DATAF
+overflow <= overflow_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= add_sub_cella[0].SUM_OUT
+result[1] <= add_sub_cella[1].SUM_OUT
+result[2] <= add_sub_cella[2].SUM_OUT
+result[3] <= add_sub_cella[3].SUM_OUT
+result[4] <= add_sub_cella[4].SUM_OUT
+result[5] <= add_sub_cella[5].SUM_OUT
+result[6] <= add_sub_cella[6].SUM_OUT
+result[7] <= add_sub_cella[7].SUM_OUT
+
+
